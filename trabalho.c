@@ -49,7 +49,7 @@ void cadastro(){
 	arq=fopen("cad_pc.txt","ab");
 	
 	if(arq){
-		printf("Entre com o modelo do PC:");
+		printf("Entre com o modelo do computador:");
 		scanf("%s", &reg.modelo);
 		printf("Entre com a capacidade de memoria:");
 		scanf("%d", &reg.capmemoria);
